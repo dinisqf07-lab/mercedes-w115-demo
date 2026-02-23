@@ -1,38 +1,120 @@
 /* =========================
-   MENU ESTILO BLOGSPOT
+   RESET
+   ========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   BASE
+   ========================= */
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background: #e8e3d8;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* =========================
+   HEADER PRETO
+   ========================= */
+
+header {
+  background: linear-gradient(#1c1c1c, #0f0f0f);
+  padding: 40px 0 30px 0;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  margin-top: 12px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* =========================
+   MENU VINTAGE
    ========================= */
 
 .topnav {
-  background: #e9e4d8;
-  border-top: 1px solid #c9b98a;
-  border-bottom: 1px solid #c9b98a;
+  background: #d8c9a4;
+  border-top: 1px solid #b7a476;
+  border-bottom: 1px solid #b7a476;
 }
 
 .topnav .container {
   display: flex;
-  gap: 0;
   flex-wrap: wrap;
-  padding: 0;
 }
 
 .navlink {
-  display: inline-block;
   padding: 12px 18px;
   text-decoration: none;
-  color: #111;
+  color: #222;
   font-size: 14px;
-  border-right: 1px solid #c9b98a;
+  border-right: 1px solid #b7a476;
 }
 
 .navlink:first-child {
-  border-left: 1px solid #c9b98a;
+  border-left: 1px solid #b7a476;
 }
 
 .navlink:hover {
-  background: #d7c89a;
+  background: #c7b68c;
 }
 
 .navlink.active {
-  background: #f4f0e8;
-  font-weight: 700;
+  background: #b39a67;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* =========================
+   CONTEÚDO
+   ========================= */
+
+.content {
+  background: #f7f4ec;
+  padding: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.content p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+  text-align: center;
+  padding: 25px 0;
+  background: #e1dccf;
+  font-size: 14px;
 }
