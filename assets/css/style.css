@@ -1,120 +1,89 @@
-/* =========================
-   RESET
-   ========================= */
+*{margin:0;padding:0;box-sizing:border-box;}
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body{
+  font-family:"Libre Baskerville", serif;
+  background:#e8e3d8;
+  color:#222;
+  line-height:1.65;
 }
 
-/* =========================
-   BASE
-   ========================= */
-
-body {
-  font-family: "Libre Baskerville", serif;
-  background: #e8e3d8;
-  color: #222;
+.container{
+  width:90%;
+  max-width:1000px;
+  margin:0 auto;
 }
 
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
+header{
+  background:linear-gradient(#1c1c1c,#0f0f0f);
+  padding:40px 0 30px;
+  text-align:center;
+  color:#fff;
 }
 
-/* =========================
-   HEADER PRETO
-   ========================= */
-
-header {
-  background: linear-gradient(#1c1c1c, #0f0f0f);
-  padding: 40px 0 30px 0;
-  text-align: center;
-  color: #fff;
+header h1{
+  font-family:"Playfair Display", serif;
+  font-size:48px;
+  font-weight:700;
+  letter-spacing:1px;
 }
 
-header h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 48px;
-  font-weight: 700;
-  letter-spacing: 1px;
+.subtitle{
+  margin-top:12px;
+  font-size:15px;
+  opacity:.9;
 }
 
-.subtitle {
-  margin-top: 12px;
-  font-size: 15px;
-  opacity: 0.9;
+.topnav{
+  background:#d8c9a4;
+  border-top:1px solid #b7a476;
+  border-bottom:1px solid #b7a476;
 }
 
-/* =========================
-   MENU VINTAGE
-   ========================= */
-
-.topnav {
-  background: #d8c9a4;
-  border-top: 1px solid #b7a476;
-  border-bottom: 1px solid #b7a476;
+.topnav .container{
+  display:flex;
+  flex-wrap:wrap;
 }
 
-.topnav .container {
-  display: flex;
-  flex-wrap: wrap;
+.navlink{
+  padding:12px 18px;
+  text-decoration:none;
+  color:#222;
+  font-size:14px;
+  border-right:1px solid #b7a476;
 }
 
-.navlink {
-  padding: 12px 18px;
-  text-decoration: none;
-  color: #222;
-  font-size: 14px;
-  border-right: 1px solid #b7a476;
+.navlink:first-child{
+  border-left:1px solid #b7a476;
 }
 
-.navlink:first-child {
-  border-left: 1px solid #b7a476;
+.navlink:hover{
+  background:#c7b68c;
 }
 
-.navlink:hover {
-  background: #c7b68c;
+.navlink.active{
+  background:#b39a67;
+  color:#fff;
+  font-weight:700;
 }
 
-.navlink.active {
-  background: #b39a67;
-  color: #fff;
-  font-weight: bold;
+.content{
+  background:#f7f4ec;
+  padding:50px;
+  margin:40px auto;
+  box-shadow:0 5px 15px rgba(0,0,0,.15);
 }
 
-/* =========================
-   CONTEÚDO
-   ========================= */
-
-.content {
-  background: #f7f4ec;
-  padding: 50px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+.content h2{
+  font-family:"Playfair Display", serif;
+  font-size:34px;
+  margin-bottom:25px;
 }
 
-.content h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 34px;
-  margin-bottom: 25px;
-}
+.content p{ margin-bottom:20px; }
 
-.content p {
-  margin-bottom: 20px;
-  line-height: 1.7;
-}
-
-/* =========================
-   FOOTER
-   ========================= */
-
-footer {
-  text-align: center;
-  padding: 25px 0;
-  background: #e1dccf;
-  font-size: 14px;
+footer{
+  text-align:center;
+  padding:25px 0;
+  background:#e1dccf;
+  font-size:14px;
 }
