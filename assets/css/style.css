@@ -87,3 +87,22 @@ footer{
   background:#e1dccf;
   font-size:14px;
 }
+
+.post-figure {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.post-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  height: auto;
+}
+
+.post-caption {
+  margin-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.8;
+}
