@@ -12,7 +12,10 @@
 ========================= */
 body {
   font-family: "Libre Baskerville", serif;
-  background: #e8e3d8;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(255,255,255,0.55), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(255,255,255,0.35), transparent 45%),
+    #e8e3d8;
   color: #222;
   line-height: 1.65;
 }
