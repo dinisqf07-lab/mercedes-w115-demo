@@ -28,25 +28,28 @@ body {
 /* =========================
    HEADER PRETO
 ========================= */
-header {
-  background: linear-gradient(#1c1c1c, #0f0f0f);
-  padding: 40px 0 30px;
+header{
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255,255,255,0.06), transparent 35%),
+    linear-gradient(#1c1c1c, #0a0a0a);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 56px 0 44px;
   text-align: center;
   color: #fff;
-  border-bottom: 4px solid #000;
 }
 
-header h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 48px;
-  font-weight: 700;
-  letter-spacing: 1px;
+header h1{
+  font-family:"Playfair Display", serif;
+  font-size: 52px;
+  letter-spacing: 2px;
+  text-transform: none;
 }
 
-.subtitle {
-  margin-top: 12px;
-  font-size: 15px;
+.subtitle{
+  max-width: 920px;
+  margin: 14px auto 0;
   opacity: 0.9;
+  font-size: 16px;
 }
 
 /* =========================
