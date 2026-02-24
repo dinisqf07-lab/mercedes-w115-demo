@@ -54,6 +54,7 @@ header h1 {
   background: #d8c9a4;
   border-top: 1px solid #b7a476;
   border-bottom: 1px solid #b7a476;
+   justify-content: center;
 }
 
 .topnav .container {
@@ -65,8 +66,9 @@ header h1 {
   padding: 12px 18px;
   text-decoration: none;
   color: #222;
-  font-size: 14px;
+  font-size: 13px;
   border-right: 1px solid #b7a476;
+   letter-spacing: .3px;
 }
 
 .navlink:first-child {
