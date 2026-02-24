@@ -1,132 +1,54 @@
 *{margin:0;padding:0;box-sizing:border-box;}
 
-body {
-  background: #f5f3ee;
+body{
+  font-family:"Libre Baskerville", serif;
+  background:#e8e3d8;
+  color:#222;
+  line-height:1.65;
 }
 
 .container{
-  width:90%;
-  max-width:1000px;
+@@ -13,11 +10,12 @@ body{
   margin:0 auto;
 }
 
-header {
-  padding: 60px 0 40px 0;
-}
+header{
+  background:linear-gradient(#1c1c1c,#0f0f0f);
+  padding:40px 0 30px;
+  text-align:center;
+  color:#fff;
 
-header h1 {
-  letter-spacing: 2px;
 }
 
 header h1{
-  font-family:"Playfair Display", serif;
-  font-size:48px;
-  font-weight:700;
-  letter-spacing:1px;
-}
-
-.subtitle{
-  margin-top:12px;
-  font-size:15px;
-  opacity:.9;
-}
-
-.topnav{
-  background:#d8c9a4;
-  border-top:1px solid #b7a476;
-  border-bottom:1px solid #b7a476;
-}
-
-.topnav .container{
-  display:flex;
-  flex-wrap:wrap;
-}
-
-.navlink{
-  padding:12px 18px;
-  text-decoration:none;
-  color:#222;
-  font-size:14px;
+@@ -52,12 +50,13 @@ header h1{
   border-right:1px solid #b7a476;
 }
 
-.navlink {
-  font-size: 14px;
+.navlink:first-child{
+  border-left:1px solid #b7a476;
 }
 
-.navlink {
-  font-size: 13px;
-  letter-spacing: 0.5px;
+.navlink:hover{
+  background:#c7b68c;
+
 }
 
 .navlink.active{
-  background:#b39a67;
-  color:#fff;
-  font-weight:700;
-}
-
-.content{
-  background:#f7f4ec;
-  padding:50px;
-  margin:40px auto;
-  box-shadow:0 5px 15px rgba(0,0,0,.15);
-}
-
-.content h2{
-  font-family:"Playfair Display", serif;
-  font-size:34px;
-  margin-bottom:25px;
-}
-
-.content p{ margin-bottom:20px; }
-
-footer{
-  text-align:center;
-  padding:25px 0;
-  background:#e1dccf;
-  font-size:14px;
-}
-
-.post-figure {
-  margin: 40px auto;
-  text-align: center;
-}
+@@ -95,9 +94,12 @@ footer{
 
 .post-img {
   display: block;
-  margin: 40px auto;
-  max-width: 820px;
-  width: 100%;
+  margin: 0 auto;
+  max-width: 90%;
+
   height: auto;
-  border-radius: 6px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+
+
 }
 
 .post-caption {
-  margin-top: 10px;
-  font-size: 14px;
+@@ -106,3 +108,25 @@ footer{
   font-style: italic;
   opacity: 0.8;
 }
-
-
-.content {
-  max-width: 820px;
-  margin: 60px auto;
-  line-height: 1.8;
-  font-size: 17px;
-}
-
-.content p {
-  margin-bottom: 22px;
-}
-
-h1 {
-  font-size: 44px;
-}
-
-.subtitle {
-  font-size: 16px;
-  opacity: 0.85;
-}
-
