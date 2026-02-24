@@ -103,6 +103,19 @@ header h1 {
   margin-bottom: 20px;
 }
 
+
+.content{
+  max-width: 860px;
+  margin: 50px auto;
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.content p{
+  margin-bottom: 22px;
+}
+
+
 /* =========================
    IMAGENS
 ========================= */
