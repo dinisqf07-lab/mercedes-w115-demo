@@ -124,13 +124,15 @@ header h1 {
   text-align: center;
 }
 
-.post-img {
-  display: block;
-  margin: 50px auto;
-  width: 75%;
-  max-width: 750px;
-  height: auto;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+.post-img{
+  display:block;
+  margin: 32px auto;
+  width: 72%;
+  max-width: 760px;
+  height:auto;
+  border: 1px solid rgba(0,0,0,0.15);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+  border-radius: 6px;
 }
 
 .post-caption {
