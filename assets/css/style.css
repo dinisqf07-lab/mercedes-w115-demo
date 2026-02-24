@@ -1,54 +1,138 @@
-*{margin:0;padding:0;box-sizing:border-box;}
-
-body{
-  font-family:"Libre Baskerville", serif;
-  background:#e8e3d8;
-  color:#222;
-  line-height:1.65;
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-@@ -13,11 +10,12 @@ body{
-  margin:0 auto;
+/* =========================
+   BASE
+========================= */
+body {
+  font-family: "Libre Baskerville", serif;
+  background: #e8e3d8;
+  color: #222;
+  line-height: 1.65;
 }
 
-header{
-  background:linear-gradient(#1c1c1c,#0f0f0f);
-  padding:40px 0 30px;
-  text-align:center;
-  color:#fff;
-
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-header h1{
-@@ -52,12 +50,13 @@ header h1{
-  border-right:1px solid #b7a476;
+/* =========================
+   HEADER PRETO
+========================= */
+header {
+  background: linear-gradient(#1c1c1c, #0f0f0f);
+  padding: 40px 0 30px;
+  text-align: center;
+  color: #fff;
+  border-bottom: 4px solid #000;
 }
 
-.navlink:first-child{
-  border-left:1px solid #b7a476;
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
-.navlink:hover{
-  background:#c7b68c;
-
+.subtitle {
+  margin-top: 12px;
+  font-size: 15px;
+  opacity: 0.9;
 }
 
-.navlink.active{
-@@ -95,9 +94,12 @@ footer{
+/* =========================
+   MENU VINTAGE
+========================= */
+.topnav {
+  background: #d8c9a4;
+  border-top: 1px solid #b7a476;
+  border-bottom: 1px solid #b7a476;
+}
+
+.topnav .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navlink {
+  padding: 12px 18px;
+  text-decoration: none;
+  color: #222;
+  font-size: 14px;
+  border-right: 1px solid #b7a476;
+}
+
+.navlink:first-child {
+  border-left: 1px solid #b7a476;
+}
+
+.navlink:hover {
+  background: #c7b68c;
+}
+
+.navlink.active {
+  background: #b39a67;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* =========================
+   CONTEÚDO
+========================= */
+.content {
+  background: #f7f4ec;
+  padding: 50px;
+  margin: 40px auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  margin-bottom: 25px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+/* =========================
+   IMAGENS
+========================= */
+.post-figure {
+  margin: 30px 0;
+  text-align: center;
+}
 
 .post-img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
   display: block;
   margin: 0 auto;
-  max-width: 90%;
-
-  height: auto;
-
-
 }
 
 .post-caption {
-@@ -106,3 +108,25 @@ footer{
+  margin-top: 10px;
+  font-size: 14px;
   font-style: italic;
   opacity: 0.8;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  text-align: center;
+  padding: 25px 0;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
 }
