@@ -168,3 +168,16 @@ footer {
   border-top: 1px solid rgba(0,0,0,0.18);
   margin: 18px 0 28px;
 }
+
+
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (max-width: 700px){
+  header h1{ font-size: 36px; }
+  .content{ padding: 26px; border-radius: 8px; }
+  .post-img{ width: 100%; border-radius: 8px; }
+  .navlink{ padding: 10px 12px; }
+}
