@@ -55,39 +55,39 @@ header h1{
 /* =========================
    MENU VINTAGE
 ========================= */
-.topnav {
-  background: #d8c9a4;
-  border-top: 1px solid #b7a476;
-  border-bottom: 1px solid #b7a476;
-   justify-content: center;
+.topnav{
+  background: linear-gradient(#dfd2ad, #d2c295);
+  border-top: 1px solid rgba(0,0,0,0.25);
+  border-bottom: 2px solid #8f7a49;
 }
 
-.topnav .container {
-  display: flex;
-  flex-wrap: wrap;
+.topnav .container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
 }
 
-.navlink {
-  padding: 12px 18px;
-  text-decoration: none;
-  color: #222;
+.navlink{
+  padding: 12px 16px;
+  text-decoration:none;
+  color:#1b1b1b;
   font-size: 13px;
-  border-right: 1px solid #b7a476;
-   letter-spacing: .3px;
+  letter-spacing: .5px;
+  border-right: 1px solid rgba(0,0,0,0.15);
 }
 
-.navlink:first-child {
-  border-left: 1px solid #b7a476;
+.navlink:first-child{
+  border-left: 1px solid rgba(0,0,0,0.15);
 }
 
-.navlink:hover {
-  background: #c7b68c;
+.navlink:hover{
+  background: rgba(143,122,73,0.18);
 }
 
-.navlink.active {
-  background: #b39a67;
-  color: #fff;
-  font-weight: 700;
+.navlink.active{
+  background: #8f7a49;
+  color:#fff;
+  font-weight:700;
 }
 
 /* =========================
