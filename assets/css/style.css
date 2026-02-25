@@ -253,3 +253,31 @@ footer {
 @media (max-width: 600px){
   .card-grid{ grid-template-columns: 1fr; }
 }
+
+
+
+/* =========================
+   ARTIGO (MUSEU CLÁSSICO)
+========================= */
+.content{
+  border-radius: 12px;
+}
+
+.content p{
+  margin-bottom: 22px;
+  text-align: justify;
+}
+
+.content h2{
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-top: 44px;
+  margin-bottom: 14px;
+}
+
+.sep{
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.18);
+  margin: 10px 0 22px;
+}
