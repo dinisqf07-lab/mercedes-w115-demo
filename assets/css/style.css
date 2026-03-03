@@ -289,6 +289,7 @@ footer {
    ================================ */
 
 .article {
+  background-color: #000;
   max-width: 72ch;          /* # largura ideal de leitura */
   margin: 0 auto;           /* # centra */
   padding: 24px 16px;       /* # respiro */
