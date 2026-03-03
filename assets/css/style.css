@@ -351,3 +351,88 @@ footer {
 @media (max-width: 480px) {
   .article { font-size: 16.5px; line-height: 1.7; }
 }
+
+
+
+/* ================================
+   # ARTIGOS: leitura mais apetecível
+   # Mantém o estilo do site
+   ================================ */
+
+.article{
+  max-width: 860px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.article p{
+  margin: 0 0 1.05em;
+  line-height: 1.85;
+}
+
+.article .lead{
+  font-size: 1.08em;
+  line-height: 1.9;
+  margin: 10px 0 18px;
+}
+
+/* cards */
+.fact-grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap:12px;
+  margin: 18px 0 26px;
+}
+@media (min-width: 900px){
+  .fact-grid{ grid-template-columns: repeat(4, minmax(0,1fr)); }
+}
+.fact-card{
+  border:1px solid rgba(0,0,0,.10);
+  border-radius:14px;
+  padding:14px 14px;
+  background:#fff;
+}
+.fact-k{
+  display:block;
+  font-size:12px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  opacity:.65;
+  margin-bottom:6px;
+}
+.fact-v{
+  display:block;
+  font-size:16px;
+  line-height:1.3;
+}
+
+/* índice */
+.toc{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  padding:12px;
+  border:1px solid rgba(0,0,0,.10);
+  border-radius:14px;
+  background:#fff;
+  margin: 10px 0 30px;
+}
+.toc a{
+  text-decoration:none;
+  padding:8px 10px;
+  border-radius:12px;
+  border:1px solid rgba(0,0,0,.10);
+  color: inherit;
+  font-size: 14px;
+  opacity:.85;
+}
+.toc a:hover{ opacity:1; }
+
+/* callout */
+.callout{
+  border-left:4px solid rgba(0,0,0,.35);
+  background: rgba(0,0,0,.03);
+  padding:14px 16px;
+  border-radius:12px;
+  margin: 22px 0;
+}
