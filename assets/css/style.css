@@ -17,7 +17,7 @@ body {
   background:
     radial-gradient(circle at 20% 10%, rgba(255,255,255,0.55), transparent 40%),
     radial-gradient(circle at 80% 0%, rgba(255,255,255,0.35), transparent 45%),
-    #e8e3d8;
+    #fff7f7;
 }
 
 .container {
@@ -280,4 +280,66 @@ footer {
   border: none;
   border-top: 1px solid rgba(0,0,0,0.18);
   margin: 10px 0 22px;
+}
+
+
+/* ================================
+   # LEITURA MAIS LEVE (ARTIGOS)
+   # Não remove texto, só melhora layout/ritmo
+   ================================ */
+
+.article {
+  max-width: 72ch;          /* # largura ideal de leitura */
+  margin: 0 auto;           /* # centra */
+  padding: 24px 16px;       /* # respiro */
+  font-size: 18px;          /* # texto mais confortável */
+  line-height: 1.75;        /* # respiração entre linhas */
+}
+
+.article p {
+  margin: 0 0 1.05em;       /* # separa parágrafos */
+}
+
+.article h1 {
+  line-height: 1.15;
+  margin: 0 0 0.6em;
+}
+
+.article h2 {
+  margin: 1.6em 0 0.55em;   /* # mais espaço antes de secções */
+  line-height: 1.2;
+}
+
+.article h3 {
+  margin: 1.2em 0 0.5em;
+  line-height: 1.25;
+}
+
+.article img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  margin: 0.9em 0 1.2em;    /* # “quebra” visual */
+}
+
+.article hr {
+  margin: 1.6em 0;
+  opacity: 0.22;
+}
+
+/* # Melhor leitura em ecrãs grandes */
+@media (min-width: 900px) {
+  .article {
+    font-size: 19px;
+    padding: 36px 18px;
+  }
+}
+
+/* # Melhor leitura em telemóvel */
+@media (max-width: 480px) {
+  .article {
+    font-size: 16.5px;
+    line-height: 1.7;
+  }
 }
